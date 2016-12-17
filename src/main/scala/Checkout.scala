@@ -38,7 +38,7 @@ class Checkout {
     itemName.toUpperCase.trim match {
       case "APPLE" => Some(Apples.apply())
       case "ORANGE" => Some(Oranges.apply())
-      case _ => None //I am not going to worry about logging or exceptions fot this excerzixe ;)
+      case _ => None //I am not going to worry about logging or exceptions for this problem ;)
     }
   }
 
